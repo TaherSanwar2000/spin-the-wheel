@@ -1,8 +1,19 @@
 {
-  "extends": "@react-native/typescript-config",
   "compilerOptions": {
-    "types": ["jest"],
+    "target": "ES5",                       // compatible JS
+    "module": "ESNext",                    // modern module system
+    "lib": ["ESNext", "DOM"],              // include DOM types for RN
+    "jsx": "react",                        // support JSX
+    "declaration": true,                   // generate .d.ts files
+    "declarationDir": "dist",              // output types to dist/
+    "outDir": "dist",                      // output JS to dist/
+    "strict": true,                        // enable strict TS checks
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["**/node_modules", "**/Pods"]
+  "include": ["src/**/*", "declarations.d.ts"],
+  "exclude": ["node_modules", "dist", "Pods"]
 }
