@@ -109,12 +109,12 @@ export default function App() {
 
 ```md
 ## 🎬 Demo
-
 ### Image-based Segments
-![Spin Wheel Demo Image](./demo/spin_image.gif)
+![Spin Wheel Demo Image](https://github.com/TaherSanwar2000/spin-the-wheel/blob/main/demo/spin_image.gif)
 
 ### Text-based Segments
-![Spin Wheel Demo Text](./demo/spin_text.gif)
+![Spin Wheel Demo Text](https://github.com/TaherSanwar2000/spin-the-wheel/blob/main/demo/spin_text.gif)
+
 ```
 
 ---
