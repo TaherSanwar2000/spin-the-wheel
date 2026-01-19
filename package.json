@@ -1,15 +1,26 @@
 {
   "name": "@taher28/react-native-spin-wheel",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A customizable React Native Spin Wheel component with images and knob support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist","dist/assets","README.md","demo"],
+  "files": [
+    "dist",
+    "dist/assets",
+    "README.md",
+    "demo"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "keywords": ["react-native", "spin wheel", "component", "react-native-svg", "d3-shape"],
+  "keywords": [
+    "react-native",
+    "spin wheel",
+    "component",
+    "react-native-svg",
+    "d3-shape"
+  ],
   "peerDependencies": {
     "react": ">=18",
     "react-native": ">=0.70",
