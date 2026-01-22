@@ -5,6 +5,15 @@ Supports images or text per segment, custom colors, external controls, and callb
 
 ---
 
+## 🎬 Demo
+### Image-based Segments
+![Spin Wheel Demo Image](https://raw.githubusercontent.com/TaherSanwar2000/spin-the-wheel/main/demo/spin_image.gif)
+
+### Text-based Segments
+![Spin Wheel Demo Text](https://raw.githubusercontent.com/TaherSanwar2000/spin-the-wheel/main/demo/spin_text.gif)
+
+---
+
 ## ✨ Features
 
 - 🎯 Smooth animated spinning
@@ -105,12 +114,6 @@ export default function App() {
 
 ---
 
-## 🎬 Demo
-### Image-based Segments
-![Spin Wheel Demo Image](https://raw.githubusercontent.com/TaherSanwar2000/spin-the-wheel/main/demo/spin_image.gif)
-
-### Text-based Segments
-![Spin Wheel Demo Text](https://raw.githubusercontent.com/TaherSanwar2000/spin-the-wheel/main/demo/spin_text.gif)
 
 
 ---
