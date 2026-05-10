@@ -11,7 +11,41 @@ import Svg, { G, Path, Image as SvgImage, Text } from 'react-native-svg';
 import * as d3Shape from 'd3-shape';
 import { useSpinWheel } from '../hooks/useSpinWheel';
 import { SpinWheelProps, SpinWheelRef } from '../types';
-import DefaultKnob from '../assets/downArrow.svg';
+
+
+// Add this inline component:
+const DefaultKnob = ({ width = 50, height = 50 }: { width?: number; height?: number }) => (
+  <Svg width={width} height={height} viewBox="-1 -1 514.069 514.069">
+    <G transform="translate(1 1)">
+      <Path
+        d="M255.035 502.421 L459.835 33.087 L255.035 169.621 L58.768 41.621 Z"
+        fill="#FFE100"
+      />
+      <Path
+        d="M7.568 7.487 L255.035 502.421 L58.768 41.621 L255.035 169.621 Z"
+        fill="#FFFFFF"
+      />
+      <Path
+        d="M458.128 36.501 L255.035 502.421 L502.501 7.487 Z"
+        fill="#FFA800"
+      />
+      <Path
+        d="M255.035,510.954c-3.413,0-5.973-1.707-7.68-5.12L-0.112,10.901c-1.707-3.413-0.853-6.827,1.707-9.387
+        c3.413-2.56,7.68-3.413,10.24-0.853l130.56,85.333c4.267,2.56,5.12,7.68,2.56,11.947c-2.56,4.267-7.68,5.12-11.947,2.56
+        L28.901,32.234l226.133,451.413l225.28-451.413L259.301,177.301c-2.56,1.707-6.827,1.707-9.387,0l-68.267-44.373
+        c-4.267-2.56-5.12-7.68-2.56-11.947c2.56-4.267,7.68-5.12,11.947-2.56l64,41.813l243.2-159.573
+        c3.413-1.707,7.68-1.707,10.24,0.853s3.413,5.973,1.707,9.387L262.715,505.834C261.008,509.247,258.448,510.954,255.035,510.954z"
+        fill="#000000"
+      />
+      <Path
+        d="M169.701,109.887c0-5.12-3.413-8.533-8.533-8.533c-5.12,0-8.533,3.413-8.533,8.533
+        c0,5.12,3.413,8.533,8.533,8.533C166.288,118.421,169.701,115.007,169.701,109.887"
+        fill="#000000"
+      />
+    </G>
+  </Svg>
+);
+
 
 const { width } = Dimensions.get('window');
 const ONE_TURN = 360;
